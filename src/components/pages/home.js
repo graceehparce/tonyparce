@@ -22,7 +22,7 @@ import movie from "../images/movie.mov"
 import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 import teaching1 from "../images/teach1.jpg"
 import teaching2 from "../images/conduct.jpg"
-import teaching3 from "../images/Shoot1.jpg"
+import teaching3 from "../images/Headshot.JPG"
 
 import ButtonMailto from "./Mailto"
 
