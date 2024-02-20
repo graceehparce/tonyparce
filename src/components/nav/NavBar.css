@@ -57,6 +57,9 @@ padding: 20px;
   .navLinks {
     display: none;
   }
+  .navTitleLink {
+    font-size: x-large;
+  }
 }
 
 
