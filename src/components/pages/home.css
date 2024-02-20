@@ -352,7 +352,8 @@
 }
 
 .mediaSection {
-  position: relative
+  position: relative;
+  display: block;
 }
 
 .outerMedia {
@@ -363,11 +364,22 @@
   width: 25%;
 }
 
+.mediaSection2 {
+  position: relative;
+  display: none;
+}
+
 @media only screen and (max-width:1000px) {
   .teachingSection {
       background-position: 55%;
   }
   .teachingSection2 {
     display: none;
+  }
+  .mediaSection {
+    display: none;
+  }
+  .mediaSection2 {
+    display: block;
   }
 }

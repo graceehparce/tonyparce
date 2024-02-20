@@ -22,6 +22,8 @@ import movie from "../images/movie.mov"
 import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube } from '@tabler/icons-react';
 import teaching1 from "../images/teach1.jpg"
 import teaching2 from "../images/conduct.jpg"
+import teaching3 from "../images/Shoot1.jpg"
+
 import ButtonMailto from "./Mailto"
 
 
@@ -130,6 +132,21 @@ export const HomePage = () => {
               </div>
             </div>
           </div>
+          <div className="mediaSection2">
+          <Image className="teaching2" src={teaching3} width="100%"></Image>
+          <div className="outerMedia">
+              <div className="innerText2">
+                <h3>Check out video content here!</h3>
+                <div className="buttons">
+                  <button className="buttonZZZ"
+                      onClick={() => {
+                          navigate({ pathname: `/media` })
+                      }}>Media</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
         <div className="bottomSectionH">
         <div className="iconBox">   
         <a className="instaIcon" target="_blank" href="https://www.instagram.com/anthonyparce/">
