@@ -97,8 +97,8 @@ export const HomePage = () => {
           </div>
         </div>
         <div className="mobileInnerTeaching">
-            <Image className="teaching2" src={teaching2} height={400}></Image>
-            <div className="innerText">
+            <Image className="teaching2" src={teaching2} width="100%"></Image>
+            <div className="innerText3">
               <h3>Let's take your playing to the next level!</h3>
               <p>Read more about Tony's teaching philosophy on the teaching page, or contact him below if you're interested in setting up a trial lesson.</p>
               <div className="buttons">
