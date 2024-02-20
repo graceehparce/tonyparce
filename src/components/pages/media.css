@@ -1,0 +1,85 @@
+.wholePage1 {
+  background-color: #283618;
+  position: absolute;
+  top: 0;
+}
+
+.mediaBanner {
+  background-image: url("../images/juniper7.jpeg");
+  background-size: cover;
+  background-position: 90% 10%;
+  padding-bottom: 300px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.directions4 {
+  background: rgba(6, 6, 6, 0.4);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.vid {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width: 560px;
+  height: 315px;
+}
+
+
+.scrollVids {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-top: 5px solid black;
+  overflow: auto;
+}
+
+.scrollArea {
+  height: 360px;
+  width: 90%;
+}
+
+
+@media only screen and (max-width:700px) {
+  .mediaBanner {
+    background-position: 42%;
+  }
+}
+
+@media only screen and (max-width:1230px) {
+  .vid {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 320px;
+    height: 190px;
+  }
+
+  .scrollArea {
+    height: 215px;
+  }
+}
+
+.bottomSectionM {
+  background-color: #283618;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

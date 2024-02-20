@@ -1,0 +1,362 @@
+.homeWhole {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  background-position: 40%;
+
+}
+
+.mobileInnerTeaching {
+  display: none
+}
+
+.homeBackground {
+  background-image: url("../images/tony.jpeg");
+  background-size: cover;
+  background-position: 0%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 20px solid rgb(65, 17, 7);
+  background-position: 50%;
+  width: 100%;
+
+}
+
+@media only screen and (max-width:1000px) {
+  .homeBackground {
+      background-position: 50%;
+  }
+  
+}
+
+.nameTitle {
+  color: white;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 400px;
+}
+
+.aboutImage {
+  background-image: url("../images/about1.jpg");
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.aboutSection0 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.aboutText1 {
+  font-size: medium;
+  max-width: 42%;
+  padding: 4%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sectionTitle {
+  font-size: xx-large;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+  font-family: "Stint Ultra Expanded", serif;
+}
+
+.imageBox1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ width: 30%;
+ padding:20px;
+ text-align: center;
+}
+
+@media only screen and (max-width:1050px) {
+  .aboutSection0 {
+      flex-wrap: wrap;
+      text-align: center;
+  }
+  .imageBox1 {
+    width: 100%;
+  }
+
+  .aboutText1 {
+    max-width: 90%;
+    padding: 5%
+  }
+
+  .mobileInnerTeaching {
+    display: block;
+  }
+}
+
+
+.teachingSection {
+  background-size: cover;
+  background-position: 0%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-top: 20px solid rgb(65, 17, 7);
+}
+
+.teachingQuote1 {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  background: rgba(6, 6, 6, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Figtree', sans-serif;
+
+}
+
+.teachingQuote2 {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  background: rgba(6, 6, 6, 0.3);
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Figtree', sans-serif;
+
+}
+
+.teachingQuote3 {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  background: rgba(6, 6, 6, 0.1);
+  margin: 10px;
+  border-radius: 10px;
+  font-family: 'Figtree', sans-serif;
+
+}
+
+.teachingQuote4 {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  background: rgba(6, 6, 6, 0.3);
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  font-family: 'Figtree', sans-serif;
+
+}
+
+.quotes {
+  padding-top: 20px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.aboutCard {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background: rgba(65, 17, 7, 0.5);
+}
+
+.images {
+  width: fit-content;
+}
+
+.scrollPics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.juniperSection {
+  max-width: fit-content;
+}
+
+.juniperTitle {
+  font-size: xx-large;
+  font-weight: 900;
+  background: rgba(65, 17, 7, 0.3);
+  padding: 10px;
+  text-align: center;
+  border-top: 10px solid rgb(65, 17, 7);
+  text-decoration: none;
+  color: black;
+  font-family: "Stint Ultra Expanded", serif;
+}
+
+.juniperTitleLink {
+  text-decoration: none;
+}
+
+.macBox {
+  background-size: cover;
+  background-position: 0%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-top: 20px solid black;
+}
+
+.logo {
+  padding: 30px;
+}
+
+.macInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomSectionH {
+  background-color: rgb(65, 17, 7);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.instaIcon {
+  color: black;
+  padding: 6px;
+  margin: 8px;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+.instaIcon:hover {
+  background-color: gray;
+}
+
+.iconBox {
+  display: flex;
+}
+
+.buttonZZZ {
+  color: white;
+    padding: 6px;
+    margin: 8px;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    box-shadow: none;
+    font-family: 'Figtree';
+
+}
+
+.buttonZZZ:hover {
+  background-color: gray;
+}
+
+.innerTeaching {
+  position: absolute;
+  top: 350px;
+  left: 550px;
+  display: flex;
+  flex-direction: row;
+  border: 5px solid rgb(65, 17, 7, 0.9);
+}
+
+.teachingSection2 {
+  display: block;
+  position: relative;
+  padding: 5%;
+  padding-bottom: 150px;
+  background-color: rgb(65, 17, 7, 0.5);
+}
+
+.innerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width:100%;
+  background-color:rgb(65, 17, 7);
+  color: white ;
+}
+
+.innerText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width:100%;
+  background-color:rgb(65, 17, 7);
+  color: white ;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.mediaSection {
+  position: relative
+}
+
+.outerMedia {
+  position: absolute;
+  z-index: 100;
+  top:20px;
+  left: 68%;
+  width: 25%;
+}
+
+@media only screen and (max-width:1000px) {
+  .teachingSection {
+      background-position: 55%;
+  }
+  .teachingSection2 {
+    display: none;
+  }
+}
