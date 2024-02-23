@@ -104,6 +104,7 @@
 
   .mobileInnerTeaching {
     display: block;
+    border-top: 20px solid rgb(65, 17, 7);
   }
 }
 
