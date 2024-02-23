@@ -1,5 +1,6 @@
 .ncmsPic {
   max-width: 45%;
+  height: 100%;
 }
 
 h2 {
@@ -34,7 +35,10 @@ h2 {
   align-items: center;
   justify-content: center;
   max-width: 60%;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   font-size: smaller;
 }
 
